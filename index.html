@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="start">
+
+    <nav class="row middle-xs middle-md middle-lg">
+      <logo class="col-xs-4 col-md-3 col-lg-offset-1 col-lg-2">
+        <img
+          class="row middle-sm middle-md middle-lg"
+          id="logo"
+          src="img/logo.png"
+          alt="logo"
+        />
+      </logo>
+      <form
+        class="col-xs-offset-3 col-xs-2 col-md-offset-6 col-lg-offset-7"
+        name="enter"
+      >
+        <button id="enter">Вход</button>
+      </form>
+      <a href="#" rel="basket">
+        <img id="basket" src="img/basket.svg" alt="корзина" />
+      </a>
+    </nav>
+    
+    <main>
+      <div class="row">
+        <form>
+          <input
+            id="search"
+            type="search"
+            placeholder="Поиск по ресторанам и кухням"
+          />
+        </form>
+      </div>
+
+      <div class="col-lg-12">
+        <p class="header">Рестораны в Москве</p>
+      </div>
+
+      <container class="stores row">
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/Макдоналдс — Газетный.png"
+              alt="Макдоналдс — Газетный"
+            />
+            <figcaption>Макдоналдс — Газетный</figcaption>
+            <p>₽₽ • Бургеры</p>
+            <p class="time">25 - 35 мин</p>
+          </figure>
+        </a>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/DimSum & Co — ЦДМ.png"
+              alt="DimSum & Co — ЦДМ"
+            />
+            <figcaption>DimSum & Co — ЦДМ</figcaption>
+            <p>₽ • Японская • Китайская • Азиатская</p>
+            <p class="time">40 - 50 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/ДвижОК — Манежная.png"
+              alt="ДвижОК — Манежная"
+            />
+            <figcaption>ДвижОК — Манежная</figcaption>
+            <p>₽ • Американская • Европейская</p>
+            <p class="time">35 - 45 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img src="img/Stores/НЯ — NHA.png" alt="НЯ — NHA" />
+            <figcaption>НЯ — NHA</figcaption>
+            <p>₽₽ • Вьетнамская</p>
+            <p class="time">30 - 40 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/Точка Дзы — Цветной.png"
+              alt="Точка Дзы — Цветной"
+            />
+            <figcaption>Точка Дзы — Цветной</figcaption>
+            <p>₽₽ • Вьетнамская</p>
+            <p class="time">30 - 40 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img src="img/Stores/Cinnabon.png" alt="Cinnabon" />
+            <figcaption>Cinnabon</figcaption>
+            <p>₽ • Выпечка • Десерты • Капкейки</p>
+            <p class="time">25 - 35 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img src="img/Stores/PIZZELOVE.png" alt="PIZZELOVE" />
+            <figcaption>PIZZELOVE</figcaption>
+            <p>₽₽ • Пицца</p>
+            <p class="time">15 - 25 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/Zю кафе — Тверская.png"
+              alt="Zю кафе — Тверская"
+            />
+            <figcaption>Zю кафе — Тверская</figcaption>
+            <p>₽₽ • Японская</p>
+            <p class="time">25 - 35 мин</p>
+          </figure>
+        </div>
+
+        <a href="pushkin.html" class="col-md-6 col-lg-4">
+          <figure>
+            <img
+              src="img/Stores/Bar BQ Cafe — Манежная.png"
+              alt="Bar BQ Cafe — Манежная"
+            />
+            <figcaption>Bar BQ Cafe — Манежная</figcaption>
+            <p>₽₽₽ • Европейская</p>
+            <p class="time">30 - 40 мин</p>
+          </figure>
+        </div>
+
+      </container>
+    </main>
+    <footer>
+      <div class="row">
+        <a href="#" id="bottom_logo" class="col-xs-10 col-md-3 col-lg-3">
+          <img src="img/white-logo.svg" />
+        </a>
+      </div>
+      <hr />
+      <div id="footer_center" class="row">
+        <div class="col-xs-7 col-md-3 col-lg-3">
+          <div id="footer_start">
+            <img src="img/world.svg" alt="" />
+            <select class="" name="language" size="1" class="middle-lg">
+              <option selected value="rus"> Русский</option>
+            </select>
+          </div>
+          <div id="hash">
+            <p><span>#</span>UberEats</p>
+          </div>
+          <div id="social">
+            <a href="#">
+              <img src="img/Social/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#">
+              <img src="img/Social/twitter.svg" alt="twitter" />
+            </a>
+            <a href="#">
+              <img src="img/Social/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+        <div
+          id="about"
+          class="col-xs-10 col-md-4 col-md-offset-1 col-lg-offset-1 col-lg-3"
+        >
+          <p>Об UberEats</p>
+          <p>Станьте партнёром по доставке</p>
+          <p>Станьте парнёром-рестораном</p>
+        </div>
+        <div
+          id="help"
+          class="col-xs-10 col-md-3 col-md-offset-1 col-lg-offset-1 col-lg-3"
+        >
+          <p>Все города</p>
+          <p>Цены</p>
+          <p>Помощь</p>
+          <p>FAQs</p>
+        </div>
+      </div>
+      <hr />
+      <div class="row center-xs center-md center-lg">
+        <a href="#">
+          <img
+            src="img/AppStores/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+            alt="AppleStore"
+          />
+        </a>
+        <a href="#" id="playstore">
+          <img
+            src="img/AppStores/en_badge_web_generic-cf6dad406f.png"
+            alt="PlayStore"
+          />
+        </a>
+      </div>
+      <hr />
+      <div id="footer_last" class="row">
+        <p class="col-md-3 col-lg-3">© 2017 Uber Technologies Inc.</p>
+        <p
+          class="col-md-4 col-md-offset-1 col-lg-offset-1 col-lg-3 footer_center"
+        >
+          Обработка персональных данных
+        </p>
+        <p class="col-md-3 col-md-offset-1 col-lg-offset-1 col-lg-3">
+          Пользовательское соглашение
+        </p>
+      </div>
+      <a href="#start" id="btn-up">
+        <img src="img/btn-up.png" alt="btn-up" />
+      </a>
+    </footer>
+  </body>
+</html>
